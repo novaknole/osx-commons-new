@@ -11,7 +11,8 @@ interface IPlugin {
     /// @notice amazing
     enum oneMore {
         enumOne,
-        enumTwo
+        enumTwo,
+        enumThree
     }
 
     /// @notice Types of plugin implementations available within OSx.
