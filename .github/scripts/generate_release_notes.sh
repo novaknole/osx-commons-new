@@ -14,6 +14,8 @@ echo "giorgi"
 
 echo $PACKAGE
 
+echo "ss"
+
 # convert to base64 so we only have one line per pull request that we iterate over
 echo $PULL_REQUESTS | jq -r '.[] | @base64' | while read pull_request ; do
     COMMIT=$(echo $pull_request | base64 -d | jq -r '.mergeCommit.oid')
