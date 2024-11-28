@@ -1,5 +1,12 @@
 # Aragon OSx Commons Contracts
 
+## 1.5.0
+
+### Minor Changes
+
+- b46739c: This changes couple of stuff on contracts
+- ca293b6: This changes couple of stuff on contracts
+
 ## 1.4.0
 
 ### Minor Changes
