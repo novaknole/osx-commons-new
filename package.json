@@ -25,5 +25,8 @@
     "lint:subgraph:ts": "eslint --ext .js,.ts ./subgraph/",
     "prettier:check": "prettier --check \"**/*.{js,json,md,sol,ts,yml}\"",
     "prettier:write": "prettier --write \"**/*.{js,json,md,sol,ts,yml}\""
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.10"
   }
 }

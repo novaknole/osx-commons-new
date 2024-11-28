@@ -18,11 +18,11 @@ jobs:
     secrets:
       ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
 
-  publish:
-    needs: [check_tag, tests]
-    uses: ./.github/workflows/reusable-publish.yml
-    with:
-      package: ${{ needs.check_tag.outputs.package }}
-      version: ${{ needs.check_tag.outputs.version }}
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  # publish:
+  #   needs: [check_tag, tests]
+  #   uses: ./.github/workflows/reusable-publish.yml
+  #   with:
+  #     package: ${{ needs.check_tag.outputs.package }}
+  #     version: ${{ needs.check_tag.outputs.version }}
+  #   secrets:
+  #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
