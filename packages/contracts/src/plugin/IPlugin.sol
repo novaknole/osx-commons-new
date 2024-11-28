@@ -7,24 +7,11 @@ pragma solidity ^0.8.8;
 /// @notice An interface defining the traits of a plugin.
 /// @custom:security-contact sirt@aragon.org
 interface IPlugin {
-    
     /// @notice amazing
     enum oneMore {
         enumOne,
         enumTwo,
-        enumThree,
-        enumFour,
-        enumSix,
-        enumSeven,
-        enumEight,
-        enumNine,
-        enum1000,
-        sdasdasd,
-        oasdkasd,
-        oasdkasd2,
-        oasdkasd3,
-        daksda,
-        daskdad
+        enumThree
     }
 
     /// @notice Types of plugin implementations available within OSx.

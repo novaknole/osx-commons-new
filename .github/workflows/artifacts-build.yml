@@ -7,7 +7,7 @@ on:
       - develop
   pull_request:
     paths:
-      - 'artifacts/**'
+      - 'packages/artifacts/**'
       - '.github/workflows/artifacts-*.yml'
   workflow_dispatch:
   workflow_call:
@@ -19,7 +19,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     defaults:
       run:
-        working-directory: artifacts
+        working-directory: packages/artifacts
     steps:
       - name: 'Check out the repo'
         uses: 'actions/checkout@v3'

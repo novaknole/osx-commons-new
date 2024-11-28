@@ -7,7 +7,7 @@ on:
       - develop
   pull_request:
     paths:
-      - 'sdk/**'
+      - 'packages/sdk/**'
       - '.github/workflows/sdk-*.yml'
   workflow_dispatch:
   workflow_call:
@@ -19,7 +19,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     defaults:
       run:
-        working-directory: sdk
+        working-directory: packages/sdk
     steps:
       - name: 'Check out the repo'
         uses: 'actions/checkout@v3'
