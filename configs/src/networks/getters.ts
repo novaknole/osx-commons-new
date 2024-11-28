@@ -15,6 +15,9 @@ export function getNetwork(network: SupportedNetworks): NetworkConfig | null {
   return null;
 }
 
+
+/// getter here
+
 export function getNetworkByChainId(chainId: number): NetworkConfig | null {
   return chainId === 0
     ? networks[SupportedNetworks.DEV_SEPOLIA]
