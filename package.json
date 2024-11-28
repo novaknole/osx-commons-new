@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "AGPL-3.0-or-later",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
@@ -24,7 +27,8 @@
     "lint:sdk:ts": "eslint --ext .js,.ts ./sdk/",
     "lint:subgraph:ts": "eslint --ext .js,.ts ./subgraph/",
     "prettier:check": "prettier --check \"**/*.{js,json,md,sol,ts,yml}\"",
-    "prettier:write": "prettier --write \"**/*.{js,json,md,sol,ts,yml}\""
+    "prettier:write": "prettier --write \"**/*.{js,json,md,sol,ts,yml}\"",
+    "release": "changeset publish"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.10"
