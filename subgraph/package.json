@@ -1,5 +1,5 @@
 {
-  "name": "@aragon/osx-commons-subgraph",
+  "name": "giorgi-osx-commons-subgraph",
   "version": "0.0.5",
   "description": "The Aragon OSx subgraph package containing common utilities",
   "module": "index.ts",
