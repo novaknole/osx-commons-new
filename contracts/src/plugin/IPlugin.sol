@@ -22,7 +22,8 @@ interface IPlugin {
         sdasdasd,
         oasdkasd,
         oasdkasd2,
-        oasdkasd3
+        oasdkasd3,
+        daksda
     }
 
     /// @notice Types of plugin implementations available within OSx.
