@@ -19,7 +19,8 @@ interface IPlugin {
         enumEight,
         enumNine,
         enum1000,
-        sdasdasd
+        sdasdasd,
+        oasdkasd
     }
 
     /// @notice Types of plugin implementations available within OSx.
