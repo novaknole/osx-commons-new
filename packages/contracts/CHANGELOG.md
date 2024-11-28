@@ -1,5 +1,11 @@
 # Aragon OSx Commons Contracts
 
+## 1.4.0
+
+### Minor Changes
+
+- 839fbb0: `Math`: add an `invMod` function to get the modular multiplicative inverse of a number in Z/nZ.
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

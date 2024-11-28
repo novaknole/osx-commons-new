@@ -7,7 +7,7 @@ on:
       - develop
   pull_request:
     paths:
-      - 'contracts/**'
+      - 'packages/contracts/**'
       - '.github/workflows/contracts-*.yml'
   workflow_dispatch:
   workflow_call:
@@ -22,7 +22,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     defaults:
       run:
-        working-directory: contracts
+        working-directory: packages/contracts
     steps:
       - name: 'Check out the repo'
         uses: 'actions/checkout@v3'
@@ -45,4 +45,3 @@ jobs:
         run: 'yarn typechain'
         env:
           ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
-
